@@ -1,0 +1,28 @@
+.formdiv form {
+  padding: 10px;
+  height: 350px;
+  width: 40vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  border: 5px solid red;
+  border-radius: 10px;
+}
+
+input,
+select,
+button {
+  padding:10px;
+  background-color: white;
+  border: none;
+  color: black;
+}
+
+input:focus{
+  outline: none;
+}
+
+button{
+  background-color: blue;
+  color: white;
+}
