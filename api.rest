@@ -13,3 +13,8 @@ Content-Type: application/json
     "gender" : "male",
     "password" : "bvshg"
 }
+
+###
+DELETE http://localhost:8080/students/w5458465
+Accept: application/json
+Content-Type: application/json
