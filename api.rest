@@ -1,0 +1,15 @@
+Get http://localhost:8080/students/all
+###
+
+POST http://localhost:8080/students/add
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name" : "Huzaifa",
+    "email" : "huzaifa@gmail.com",
+    "rollnum" : "446",
+    "age" : 24,
+    "gender" : "male",
+    "password" : "bvshg"
+}
