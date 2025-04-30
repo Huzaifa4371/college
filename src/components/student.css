@@ -26,3 +26,16 @@ button{
   background-color: blue;
   color: white;
 }
+
+.studentlist{
+  /* border: 2px solid black; */
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.studentlist tr td{
+  padding: 5px;
+  border: 2px solid red;
+}
